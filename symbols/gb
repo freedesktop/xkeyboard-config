@@ -54,6 +54,8 @@ xkb_symbols "intl" {
     key <BKSL>  { [ numbersign, dead_tilde,            bar,         bar ] };
     key <LSGT>  { [  backslash,        bar,            bar,         bar ] };
 
+    key <AB08>  { [      comma,       less,       ccedilla,         Ccedilla ] };
+
     include "level3(ralt_switch)"
 };
 
