@@ -3056,6 +3056,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>pes_windows</name>
+            <description>Persian (windows)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>ku</name>
             <!-- Keyboard indicator for Kurdish layouts -->
             <shortDescription>ku</shortDescription>
