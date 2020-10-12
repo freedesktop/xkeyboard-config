@@ -2044,9 +2044,16 @@ xkb_symbols "de_se_fi"  {
 };
 
 
+<<<<<<< HEAD
 // Halmak created by Nikolay Nemshilov 
 // This is an AI designed keyboard layout
 // https://github.com/MadRabbit/halmak 
+=======
+// Halmak
+// This is an AI designed keyboard layout
+// https://github.com/MadRabbit/halmak 
+// Copyright (C) 2016 Nikolay Nemshilov 
+>>>>>>> d524faba9dc51041e77914839791b9bfaf1b9daf
 partial alphanumeric_keys
 xkb_symbols "halmak" {
 
@@ -2106,9 +2113,12 @@ xkb_symbols "halmak" {
 
 	key <SPCE> { [        space,        space ] };
 
+<<<<<<< HEAD
 	// key <CAPS> { [    BackSpace,       Escape,       BackSpace,        BackSpace ] };
 
 	// do NOT hardcode this switch; use lv3:ralt_switch option instead!
+=======
+>>>>>>> d524faba9dc51041e77914839791b9bfaf1b9daf
 	//include "level3(ralt_switch)"
 };
 
