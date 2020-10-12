@@ -2042,3 +2042,73 @@ xkb_symbols "de_se_fi"  {
 
     include "level3(ralt_switch)"
 };
+
+
+// Halmak created by Nikolay Nemshilov 
+// This is an AI designed keyboard layout
+// https://github.com/MadRabbit/halmak 
+partial alphanumeric_keys
+xkb_symbols "halmak" {
+
+	include "us"
+	name[Group1]= "English (Halmak)";
+
+	key <TLDE> { [        grave,   asciitilde ] };
+	key <AE01> { [            1,       exclam ] };
+	key <AE02> { [            2,           at ] };
+	key <AE03> { [            3,   numbersign ] };
+	key <AE04> { [            4,       dollar ] };
+	key <AE05> { [            5,      percent ] };
+	key <AE06> { [            6,  asciicircum ] };
+	key <AE07> { [            7,    ampersand ] };
+	key <AE08> { [            8,     asterisk ] };
+	key <AE09> { [            9,    parenleft ] };
+	key <AE10> { [            0,   parenright ] };
+	key <AE11> { [        minus,   underscore ] };
+	key <AE12> { [        equal,         plus ] };
+
+	key <AD01> { [            w,            W ] };
+	key <AD02> { [            l,            L ] };
+	key <AD03> { [            r,            R ] };
+	key <AD04> { [            b,            B ] };
+	key <AD05> { [            z,            Z ] };
+	key <AD06> { [    semicolon,        colon ] };
+	key <AD07> { [            q,            Q ] };
+	key <AD08> { [            u,            U ] };
+	key <AD09> { [            d,            D ] };
+	key <AD10> { [    		  j,        	J ] };
+	key <AD11> { [  bracketleft,    braceleft ] };
+	key <AD12> { [ bracketright,   braceright ] };
+	key <BKSL> { [    backslash,          bar ] };
+
+	key <AC01> { [            s,            S ] };
+	key <AC02> { [            h,            H ] };
+	key <AC03> { [            n,            N ] };
+	key <AC04> { [            t,            T ] };
+	key <AC05> { [        comma,         less ] };
+	key <AC06> { [       period,      greater ] };
+	key <AC07> { [            a,            A ] };
+	key <AC08> { [            e,            E ] };
+	key <AC09> { [            o,            O ] };
+	key <AC10> { [            i,            I ] };
+	key <AC11> { [   apostrophe,     quotedbl ] };
+
+	key <AB01> { [            f,            F ] };
+	key <AB02> { [            m,            M ] };
+	key <AB03> { [            v,            V ] };
+	key <AB04> { [            c,            C ] };
+	key <AB05> { [        slash,     question ] };
+    key <AB06> { [            g,            G ] };
+    key <AB07> { [            p,            P ] };
+    key <AB08> { [            x,            X ] };
+    key <AB09> { [       	  k,      		K ] };
+	key <AB10> { [        	  y,     		Y ] };
+
+	key <SPCE> { [        space,        space ] };
+
+	// key <CAPS> { [    BackSpace,       Escape,       BackSpace,        BackSpace ] };
+
+	// do NOT hardcode this switch; use lv3:ralt_switch option instead!
+	//include "level3(ralt_switch)"
+};
+
