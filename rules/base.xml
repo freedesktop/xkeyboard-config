@@ -6248,12 +6248,11 @@
       <configItem>
         <name>id</name>
         <shortDescription>id</shortDescription>
-        <description>Indonesian (Arab Melayu, phonetic)</description>
+        <description>Indonesian (id, latin)</description>
         <languageList>
           <iso639Id>ind</iso639Id>
           <iso639Id>msa</iso639Id>
           <iso639Id>min</iso639Id>
-          <iso639Id>ace</iso639Id>
           <iso639Id>bjn</iso639Id>
           <iso639Id>tsg</iso639Id>
           <iso639Id>mfa</iso639Id>
@@ -6263,7 +6262,7 @@
        <variant>
          <configItem>
           <name>phoneticx</name>
-            <description>Indonesian (Arab Melayu, extended phonetic)</description>
+            <description>Indonesian (id, latin)</description>
          </configItem>
        </variant>
       </variantList>
@@ -6275,6 +6274,17 @@
         <description>Indonesian (Javanese)</description>
         <languageList>
           <iso639Id>jv</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList/>
+    </layout>
+     <layout>
+      <configItem>
+        <name>ace</name>
+        <shortDescription>ace</shortDescription>
+        <description>Indonesian (Acehnese, Malayu, Jawi, Arabic Keyboard)</description>
+        <languageList>
+          <iso639Id>ace</iso639Id>
         </languageList>
       </configItem>
       <variantList/>
